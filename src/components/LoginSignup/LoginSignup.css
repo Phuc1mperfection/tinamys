@@ -1,0 +1,222 @@
+.container-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://tinamys.com/_next/static/media/loginBanner.f7fc6e11.svg') no-repeat 50% fixed;
+    min-height: 100%;
+    min-width: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100vh;
+    border-radius: 8px;
+    position: relative;
+
+}
+.visible {
+    visibility: visible
+}
+
+.invisible {
+    visibility: hidden
+}
+
+.collapse {
+    visibility: collapse
+}
+
+.static {
+    position: static
+}
+
+.fixed {
+    position: fixed
+}
+
+.absolute {
+    position: absolute
+}
+
+.relative {
+    position: relative
+}
+
+.sticky {
+    position: sticky
+}
+.gap-x-32 {
+    column-gap: 8rem;
+}
+
+.justify-evenly {
+    justify-content: space-evenly;
+}
+.justify-center{
+    justify-content: center;
+
+}
+
+.flex {
+    display: flex;
+
+}
+@media(min-width: 1440px) {
+    .container {
+        max-width:1440px
+    }
+}
+
+@media(min-width: 1600px) {
+    .container {
+        max-width:1600px
+    }
+}
+.left-0 {
+    left: 0
+}
+.container-login .header-wrapper .login-text {
+    font-weight: 500;
+    font-size: 32px;
+}
+
+.container-login .text-title {
+    font-weight: 700;
+    font-size: 78px;
+    color: rgba(27, 49, 133, .8);
+    text-align: start;
+    }
+
+.container-login .header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.container-login .container-form-login {
+    min-width: 450px;
+    padding: 30px;
+    background: hsla(0, 0%, 100%, .7);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .05);
+}
+
+.container-login .header-wrapper .login-description {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(43, 43, 43, .5);
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+
+
+.form-item-custom .title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #242424;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container-login .btn-login-social{
+    font-size: 24px;
+    margin-top: 10px;
+    font-weight: 600;
+
+    width: 100%;
+    padding: 22px;
+    display: flex;
+    background: #fff;
+    border: 1px solid #d7d7d7;
+    box-shadow: 0 1px 2px rgba(0,0,0,.08);
+    border-radius: 8px;
+    margin-top: 16px;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 16px;
+    color: #2b2b2b;
+    align-items: center
+}
+.container-login .forgot-pass {
+    color: #2b2b2b;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    text-align: right;
+}
+
+.container-login .forgot-pass:hover {
+    cursor: pointer
+}
+.ml-2 {
+    margin-left: .5rem
+}
+
+body {
+    margin: 0;
+    line-height: inherit;
+}
+
+.transition-colors {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s;
+}
+
+.float-right {
+    float: right;
+}
+
+.text-base {
+    font-size: 1rem;
+    line-height: 1.5rem
+}
+.relative {
+    position: relative
+}
+.mt-4{
+    margin-top: 1rem
+}
+
+[role=button],button {
+    cursor: pointer
+}
+.container-login .text-res {
+    color: #2b2b2b;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.container-login .text-router-register {
+    color: #0b3a82;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 3px
+}
+.container-login .btn-back-page {
+    position: fixed;
+    top: 40px;
+    left: 40px;
+}
+.btn-back-page  {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}

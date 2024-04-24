@@ -1,0 +1,36 @@
+.expandable-search-bar {
+    position: relative;
+}
+
+.expandable-search-bar .search-input {
+    text-align: right;
+    width: 36px; /* Độ rộng ban đầu của input */
+    transition: width 0.3s;
+}
+
+.expandable-search-bar .search-input.expand {
+    width: 500px; /* Độ rộng khi expand */
+    animation: expandInput 0.3s;
+}
+
+@keyframes expandInput {
+    from {
+        width: 40px; /* Độ rộng ban đầu */
+    }
+    to {
+        width: 500px; /* Độ rộng khi expand */
+    }
+}
+
+.expandable-search-bar .search-input.collapse {
+    animation: collapseInput 0.3s;
+}
+
+@keyframes collapseInput {
+    from {
+        width: 500px; /* Độ rộng khi expand */
+    }
+    to {
+        width: 40px; /* Độ rộng ban đầu */
+    }
+}

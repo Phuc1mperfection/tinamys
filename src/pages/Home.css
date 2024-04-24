@@ -1,0 +1,224 @@
+.sticky {
+    position: sticky;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    font-size: .875rem !important
+}
+
+.navbar {
+    padding: 5px 10px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: inherit;
+    height: 60px;
+    position: sticky;
+    z-index: 999;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--ds-border)
+}
+
+@media(min-width: 768px) {
+    .navbar {
+        padding: 0 15px
+    }
+}
+
+.justify-center {
+    justify-content: center
+}
+
+.items-center {
+    align-items: center
+}
+
+.flex {
+    display: flex
+}
+
+.inline {
+    display: inline
+}
+
+.inline-flex {
+    display: inline-flex
+}
+
+.mr-9 {
+    margin-right: 2.25rem
+}
+
+.ml-3 {
+    margin-left: .75rem
+}
+
+.ml-5 {
+    margin-left: 1.25rem
+}
+.gap-x-3 {
+    column-gap: .75rem
+}
+.transition {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+[role=button],
+button {
+    cursor: pointer
+}
+
+button,
+select {
+    text-transform: none
+}
+
+.transition-all {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+.transition-colors {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+    transition-duration: .15s
+}
+
+.font-light {
+    font-weight: 300
+}
+
+.text-sm {
+    font-size: .875rem;
+    line-height: 1.25rem
+}
+
+.px-2\.5 {
+    padding-left: .625rem;
+    padding-right: .625rem
+}
+
+.p-1 {
+    padding: .25rem
+}
+
+.bg-\[\#1c7fff\] {
+    --tw-bg-opacity: 1;
+    background-color: rgb(28 127 255/var(--tw-bg-opacity))
+}
+
+.rounded-md {
+    border-radius: .375rem
+}
+
+.text-white {
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity))
+}
+.cursor-pointer {
+    cursor: pointer
+}
+[role=button],
+a,
+area,
+button,
+input:not([type=range]),
+label,
+select,
+summary,
+textarea {
+    touch-action: manipulation
+}
+
+button,
+input {
+    overflow: visible
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+    -webkit-appearance: button;
+    appearance: button;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+}
+
+
+[role=button],a,area,button,input:not([type=range]),label,select,summary,textarea {
+    touch-action: manipulation
+}
+.navbar .navbar-right .input-search:hover {
+    border-color: var(--ds-border)
+}
+.bg-inherit {
+    background-color: inherit
+}
+.border-none {
+    border-style: none
+}
+*,:after,:before {
+    box-sizing: border-box;
+    border: 0 solid #1541af
+}
+
+:after,:before {
+    --tw-content: ""
+}
+.ant-input-prefix {
+    margin-right: 4px
+}
+
+.ant-input-affix-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0,0,0,.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border-radius: 2px;
+    transition: all .3s;
+    display: inline-flex;
+}
+
+.ant-input-prefix,.ant-input-suffix {
+    display: flex;
+    flex: none;
+    align-items: center
+}
+
+.ant-input-prefix>:not(:last-child),.ant-input-suffix>:not(:last-child) {
+    margin-right: 8px
+}
+
+.ant-input-show-count-suffix {
+    color: rgba(0,0,0,.45)
+}
+
+.ant-input-show-count-has-suffix {
+    margin-right: 2px
+}
+
+.ant-input-prefix {
+    margin-right: 4px
+}
